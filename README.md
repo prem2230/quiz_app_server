@@ -73,27 +73,17 @@ A robust RESTful API for a quiz application built with Node.js, Express, and Mon
 1. Clone the repository
 
 
-Copy
-
-Insert at cursor
-markdown
 git clone
 cd mernQuiz/server
 
 
 2. Install dependencies
 
-Copy
-
-Insert at cursor
 npm install
 
 
 3. Create a `.env` file with the following variables:
 
-Copy
-
-Insert at cursor
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 SECRET_KEY=your_jwt_secret_key
@@ -101,17 +91,11 @@ SECRET_KEY=your_jwt_secret_key
 
 4. Start the development server
 
-Copy
-
-Insert at cursor
 npm run dev
 
 
 5. For production
 
-Copy
-
-Insert at cursor
 npm start
 
 
